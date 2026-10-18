@@ -1,0 +1,22 @@
+{
+  "jumlah_pesan": 5572,
+  "jumlah_ham": 4825,
+  "jumlah_spam": 747,
+  "train": 3900,
+  "test": 1672,
+  "dataset_file": "sms-spam-collection-paper-5572.tsv",
+  "dataset_sha256": "946a4c4b60294e8b28b9f9f7b2e59c73ff9b34c26e97568cd9c05f65efc9944d",
+  "fitur_tfidf_train": 543,
+  "fitur_dilaporkan_paper": 543,
+  "max_df_dipakai": 83,
+  "pesan": "Snapshot 5572; mengecualikan dua pesan ham yang ditambahkan pada arsip UCI versi lebih baru.",
+  "label_train": {
+    "ham": 3384,
+    "spam": 516
+  },
+  "label_test": {
+    "ham": 1441,
+    "spam": 231
+  },
+  "random_state": 8
+}

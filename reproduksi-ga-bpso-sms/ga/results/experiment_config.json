@@ -1,0 +1,23 @@
+{
+  "dataset_sha256": "946a4c4b60294e8b28b9f9f7b2e59c73ff9b34c26e97568cd9c05f65efc9944d",
+  "features_sha256": "516f7aa4bcbb86dd636d8e30904b49587401aae7b7b0c9e2a5945ff52e8cc35d",
+  "outer_seed": 8,
+  "validation_seed": 42,
+  "min_df": 10,
+  "max_df": 83,
+  "objective": "0.50 * F1-macro-validasi + 0.50 * (1 - proporsi_fitur)",
+  "seeds": [
+    11,
+    42,
+    73,
+    101,
+    202
+  ],
+  "metode": [
+    "GA one-point",
+    "GA two-point"
+  ],
+  "evaluasi_per_run": [
+    240
+  ]
+}

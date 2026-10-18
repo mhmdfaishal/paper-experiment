@@ -1,0 +1,200 @@
+[
+  {
+    "min_support": 0.002,
+    "fitur_union": 54,
+    "statistik_per_kelas": {
+      "ham": {
+        "transaksi": 3384,
+        "itemset_frequent": 499,
+        "itemset_multi_item": 48,
+        "itemset_pruned": 29,
+        "kata_dalam_itemset": 32,
+        "fitur_terpilih": 17
+      },
+      "spam": {
+        "transaksi": 516,
+        "itemset_frequent": 794,
+        "itemset_multi_item": 551,
+        "itemset_pruned": 167,
+        "kata_dalam_itemset": 67,
+        "fitur_terpilih": 38
+      }
+    },
+    "fitur_terpilih": [
+      "account",
+      "attempt",
+      "await",
+      "award",
+      "babe",
+      "birthday",
+      "box",
+      "caller",
+      "cash",
+      "claim",
+      "code",
+      "collection",
+      "contact",
+      "double",
+      "draw",
+      "dun",
+      "friendship",
+      "great",
+      "guarantee",
+      "gud",
+      "happy",
+      "hi",
+      "holiday",
+      "land",
+      "landline",
+      "last",
+      "late",
+      "line",
+      "message",
+      "min",
+      "orange",
+      "phone",
+      "pick",
+      "pls",
+      "point",
+      "private",
+      "prize",
+      "receive",
+      "right",
+      "sae",
+      "select",
+      "service",
+      "show",
+      "smile",
+      "someone",
+      "statement",
+      "tc",
+      "tone",
+      "try",
+      "urgent",
+      "valid",
+      "video",
+      "week",
+      "wish"
+    ]
+  },
+  {
+    "min_support": 0.003,
+    "fitur_union": 25,
+    "statistik_per_kelas": {
+      "ham": {
+        "transaksi": 3384,
+        "itemset_frequent": 347,
+        "itemset_multi_item": 3,
+        "itemset_pruned": 3,
+        "kata_dalam_itemset": 6,
+        "fitur_terpilih": 6
+      },
+      "spam": {
+        "transaksi": 516,
+        "itemset_frequent": 158,
+        "itemset_multi_item": 77,
+        "itemset_pruned": 49,
+        "kata_dalam_itemset": 33,
+        "fitur_terpilih": 19
+      }
+    },
+    "fitur_terpilih": [
+      "await",
+      "box",
+      "cash",
+      "claim",
+      "collection",
+      "contact",
+      "customer",
+      "guarantee",
+      "happy",
+      "hi",
+      "holiday",
+      "im",
+      "landline",
+      "last",
+      "night",
+      "prize",
+      "sae",
+      "select",
+      "tc",
+      "tone",
+      "try",
+      "urgent",
+      "valid",
+      "week",
+      "year"
+    ]
+  },
+  {
+    "min_support": 0.004,
+    "fitur_union": 16,
+    "statistik_per_kelas": {
+      "ham": {
+        "transaksi": 3384,
+        "itemset_frequent": 265,
+        "itemset_multi_item": 1,
+        "itemset_pruned": 1,
+        "kata_dalam_itemset": 2,
+        "fitur_terpilih": 2
+      },
+      "spam": {
+        "transaksi": 516,
+        "itemset_frequent": 74,
+        "itemset_multi_item": 17,
+        "itemset_pruned": 15,
+        "kata_dalam_itemset": 14,
+        "fitur_terpilih": 14
+      }
+    },
+    "fitur_terpilih": [
+      "await",
+      "box",
+      "claim",
+      "collection",
+      "contact",
+      "customer",
+      "guarantee",
+      "holiday",
+      "last",
+      "night",
+      "po",
+      "prize",
+      "sae",
+      "service",
+      "try",
+      "urgent"
+    ]
+  },
+  {
+    "min_support": 0.0045,
+    "fitur_union": 7,
+    "statistik_per_kelas": {
+      "ham": {
+        "transaksi": 3384,
+        "itemset_frequent": 228,
+        "itemset_multi_item": 0,
+        "itemset_pruned": 0,
+        "kata_dalam_itemset": 0,
+        "fitur_terpilih": 0
+      },
+      "spam": {
+        "transaksi": 516,
+        "itemset_frequent": 57,
+        "itemset_multi_item": 6,
+        "itemset_pruned": 6,
+        "kata_dalam_itemset": 7,
+        "fitur_terpilih": 7
+      }
+    },
+    "fitur_terpilih": [
+      "box",
+      "claim",
+      "contact",
+      "po",
+      "prize",
+      "try",
+      "urgent"
+    ]
+  }
+]
