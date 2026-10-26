@@ -1,0 +1,169 @@
+{
+  "instances_dir": "data",
+  "instances": [
+    {
+      "file": "P1.csv",
+      "trucks": 2,
+      "trailers": 1,
+      "ref": 189,
+      "ref_type": "optimum (Gurobi, paper Table 5)"
+    },
+    {
+      "file": "P2.csv",
+      "trucks": 2,
+      "trailers": 1,
+      "ref": 140,
+      "ref_type": "optimum (Gurobi, paper Table 5)"
+    },
+    {
+      "file": "P3.csv",
+      "trucks": 2,
+      "trailers": 1,
+      "ref": 106,
+      "ref_type": "optimum (Gurobi, paper Table 5)"
+    },
+    {
+      "file": "P4.csv",
+      "trucks": 2,
+      "trailers": 1,
+      "ref": 256,
+      "ref_type": "optimum (Gurobi, paper Table 5)"
+    },
+    {
+      "file": "P5.csv",
+      "trucks": 2,
+      "trailers": 1,
+      "ref": 109,
+      "ref_type": "optimum (Gurobi, paper Table 5)"
+    },
+    {
+      "file": "P6.csv",
+      "trucks": 2,
+      "trailers": 1,
+      "ref": 222,
+      "ref_type": "optimum (Gurobi, paper Table 5)"
+    },
+    {
+      "file": "P7.csv",
+      "trucks": 2,
+      "trailers": 1,
+      "ref": 237,
+      "ref_type": "optimum (Gurobi, paper Table 5)"
+    },
+    {
+      "file": "P8.csv",
+      "trucks": 2,
+      "trailers": 1,
+      "ref": 207,
+      "ref_type": "optimum (Gurobi, paper Table 5 and Section 5.1)"
+    },
+    {
+      "file": "CHAO_MCTTRP_01.txt",
+      "trucks": 8,
+      "trailers": 5,
+      "ref": 640.66,
+      "ref_type": "best known (ITS, paper Table 4)"
+    },
+    {
+      "file": "CHAO_MCTTRP_02.txt",
+      "trucks": 8,
+      "trailers": 5,
+      "ref": 708.08,
+      "ref_type": "best known (ITS, paper Table 4)"
+    },
+    {
+      "file": "CHAO_MCTTRP_03.txt",
+      "trucks": 8,
+      "trailers": 5,
+      "ref": 764.81,
+      "ref_type": "best known (ITS, paper Table 4)"
+    },
+    {
+      "file": "CHAO_MCTTRP_04.txt",
+      "trucks": 13,
+      "trailers": 8,
+      "ref": 908.53,
+      "ref_type": "best known (ITS, paper Table 4)"
+    },
+    {
+      "file": "CHAO_MCTTRP_05.txt",
+      "trucks": 14,
+      "trailers": 8,
+      "ref": 1012.83,
+      "ref_type": "best known (ITS, paper Table 4)"
+    },
+    {
+      "file": "CHAO_MCTTRP_06.txt",
+      "trucks": 14,
+      "trailers": 8,
+      "ref": 1101.9,
+      "ref_type": "best known (ITS, paper Table 4)"
+    }
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "workers": 8,
+  "its": {
+    "iterations": 100,
+    "max_time_s": 36000
+  },
+  "ga": {
+    "pop_size": 100,
+    "tournament_k": 3,
+    "crossover_rate": 0.9,
+    "mutation_rate": 0.2,
+    "elite": 2,
+    "variants": [
+      "OX",
+      "PMX"
+    ]
+  },
+  "pso": {
+    "swarm_size": 50,
+    "w_start": 0.9,
+    "w_end": 0.4,
+    "c1": 2.0,
+    "c2": 2.0,
+    "v_max": 0.2
+  },
+  "sensitivity": {
+    "instance": "CHAO_MCTTRP_01.txt",
+    "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ga_mutation_rate": [
+      0.05,
+      0.1,
+      0.2,
+      0.4
+    ],
+    "pso_w_end": [
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ]
+  },
+  "experiment_environment": {
+    "cpu": "Apple M5",
+    "cpu_cores": 10,
+    "ram_gb": 16,
+    "python": "3.14",
+    "parallel_processes": 8,
+    "runtime_note": "Runtime depends on hardware, concurrent processes and implementation. Time-limited GA/PSO runs can differ despite identical seeds."
+  }
+}

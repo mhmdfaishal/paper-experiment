@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+results/raw/**/*.log
+its_mcttrp/src/*.o
+its_mcttrp/src/*.so
+report/*.aux
+report/*.log
+.DS_Store
+results/archive_depot_parking/
+results_*.log
+report/*.out
+report/*.synctex.gz
+*.zip
+
+**/*.nbc
+**/*.nbi
+**/raw_backup_*/
+ga_pso/results/archive_depot_parking/
+
+/report/
+
+# Local document sources and PDF exports
+*.tex
+*.text
+*.pdf

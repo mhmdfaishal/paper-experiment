@@ -1,0 +1,2 @@
+g++ -std=gnu++11 -I"/home/usc/ei/ldp/R/x86_64-pc-linux-gnu-library/4.1/Rcpp/include" -I"/home/usc/ei/ldp/R/lib64/R/include" -DNDEBUG   -I/usr/local/include  -fpic  -O3  -c movlist.cpp -o movlist.o
+gcc movlist.o -shared -o itsmcttrp.so
